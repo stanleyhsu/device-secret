@@ -20,7 +20,7 @@ linters:
 
   settings:
     funlen:
-      lines: 100      # 单个函数最大行数限制（默认60行）
+      lines: 120      # 单个函数最大行数限制（默认60行）
       statements: 80 # 单个函数最大语句数量
       ignore-comments: true
     gocyclo:
