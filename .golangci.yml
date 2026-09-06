@@ -19,8 +19,8 @@ linters:
 
   settings:
     funlen:
-      lines: 120      # 单个函数最大行数限制（默认60行）
-      statements: 100 # 单个函数最大语句数量
+      lines: 100      # 单个函数最大行数限制（默认60行）
+      statements: 80 # 单个函数最大语句数量
       ignore-comments: true
     gocyclo:
       min-complexity: 24 # 圈复杂度上限，超过15报错警告（建议值 10-15）
